@@ -1,0 +1,4 @@
+Mi IP Publica es: 186.61.129.102
+Mi usuario es: vagrant
+El Hash de mi Usuario es: $6$/PbdQifMn8r3fr8q$bUK36Q6kaKKtMS0VGJiXzSqj56Og.6Ur9zNufSpqXyN8t6.Ol7jHccP.0hZbKqrpgpPJAEECGYxWQR/2CY.OQ1
+La URL de mi repositorio es: git@github.com:santytoledoo/UTNFRA_SO_1P2C_2024_Toledo.git
