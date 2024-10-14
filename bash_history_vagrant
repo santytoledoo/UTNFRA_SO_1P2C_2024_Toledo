@@ -1,0 +1,412 @@
+ls
+cd repogit/
+ls
+cd UTN-FRA_SO_onBording/
+ls
+cd ..
+ls
+git clone https://github.com/upszot/UTN-FRA_SO_Examenes.git
+git clone git@github.com:santytoledoo/UTNFRA_SO_1P2C_2024_Toledo.git
+ssh-keygen -t ed25519 -C "santiagovtoledo@gmail.com"
+cat ~/.ssh/id_ed25519.pub
+git clone git@github.com:santytoledoo/UTNFRA_SO_1P2C_2024_Toledo.git
+ls
+./UTN-FRA_SO_Examenes/202410/script_Precondicion.sh ~/.bashrc && history -a
+source  ~/.bashrc  && history -a
+tree
+apt install tree
+sudo apt install tree
+cd ..
+ks
+ls
+cd ..
+ls
+cd ..
+ls
+sudo apt install tree
+snap install tree
+sudo snap install tree
+tree
+ls
+cd home
+ls
+cd vagrant
+ls
+cd repogit/
+ls
+tree UTNFRA_SO_1P2C_2024_Toledo/
+mkdir -p ~/Examenes-UTN/{alumno_1,alumno_2,alumno_3}/{parcial_1,parcial_2,parcial_3} ~/Examenes-UTN/profesores
+LS
+ls
+cd ..
+ls
+tree Examenes-UTN/
+ls
+pwd
+sudo fdisk /dev/sdc
+sudo mkfs.ext4 /dev/sdc1
+ls
+tree Examenes-UTN/
+sudo mount /dev/sdc1 /Examenes-UTN/alumno_1/parcial_1
+sudo fdisk /dev/sdc
+fdisk -l
+sudo fdisk -l
+ls
+cd Examenes-UTN/
+ls
+cd alumno_1
+ls
+cd parcial_
+cd parcial_1
+ls
+sudo fdisk /dev/sdc
+cd
+sudo mount /dev/sdc /Examenes-UTN/alumno_1/parcial_1
+sudo mount /dev/sdc /Examenes-UTN/alumno_1/parcial_1$
+sudo mount /dev/sdc1 /Examenes-UTN/alumno_1/parcial_1
+ls
+cd Examenes-UTN/
+ls
+cd alumno_1
+ls
+cd parcial_1
+ls
+sudo mount /dev/sdc /Examenes-UTN/alumno_1/parcial_1
+sudo mount
+sudo mount /dev/sdc1
+sudo mount /dev/sdc
+sudo fdisk /dev/sdc1
+q
+fdisk --wipe
+fdisk /dev/sdc1 --wipe
+fdisk --help
+sudo fdisk /dev/sdc1
+fdisk /dev/sdc
+sudo fdisk /dev/sdc
+sudo mount
+sudo mount /dev/sdc
+sudo mount /dev/sdc /mnt
+sudo mount /dev/sdc /mnt/Examenes-UTN/alumno_1/parcial_1
+sudo mount /dev/sdc /Examenes-UTN/alumno_1/parcial_1
+sudo mount /dev/sdc /mnt /Examenes-UTN/alumno_1/parcial_1
+mount --help
+fdisk -l
+sudo fdisk -l
+sudo mount /dev/sdc1 /Examenes-UTN/alumno_1/parcial_1
+pwd
+sudo mount /dev/sdc1 /home/vagrant/Examenes-UTN/alumno_1/parcial_1
+sudo mount /dev/sdc /home/vagrant/Examenes-UTN/alumno_1/parcial_1
+mkfs -t ext4 /dev/sdc1
+sudo mkfs -t ext4 /dev/sdc1
+sudo mount /dev/sdc1 /home/vagrant/Examenes-UTN/alumno_1/parcial_1
+df -h
+history
+sudo fdisk -l
+clear
+#!/bin/bash
+sudo fdisk /dev/sdc <<EOF
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+w
+EOF
+
+for i in $(seq 1 10); do     sudo mkfs.ext4 /dev/sdc$i; done
+sudo tee -a /etc/fstab << EOF
+/dev/sdc1 /Examenes-UTN/alumno_1/parcial_1 ext4 defaults 0 0
+/dev/sdc2 /Examenes-UTN/alumno_1/parcial_2 ext4 defaults 0 0
+/dev/sdc3 /Examenes-UTN/alumno_1/parcial_3 ext4 defaults 0 0
+/dev/sdc4 /Examenes-UTN/alumno_2/parcial_1 ext4 defaults 0 0
+/dev/sdc5 /Examenes-UTN/alumno_2/parcial_2 ext4 defaults 0 0
+/dev/sdc6 /Examenes-UTN/alumno_2/parcial_3 ext4 defaults 0 0
+/dev/sdc7 /Examenes-UTN/alumno_3/parcial_1 ext4 defaults 0 0
+/dev/sdc8 /Examenes-UTN/alumno_3/parcial_2 ext4 defaults 0 0
+/dev/sdc9 /Examenes-UTN/alumno_3/parcial_3 ext4 defaults 0 0
+/dev/sdc10 /Examenes-UTN/profesores ext4 defaults 0 0
+EOF
+
+sudo mount -a
+ls
+cd 
+ls
+cd Examenes-UTN/
+ls
+#!/bin/bash
+sudo fdisk /dev/sdc <<EOF
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+n
+
+
++1G
+w
+EOF
+
+for i in $(seq 1 10); do     sudo mkfs.ext4 /dev/sdc$i; done
+sudo tee -a /etc/fstab << EOF
+/dev/sdc1 /Examenes-UTN/alumno_1/parcial_1 ext4 defaults 0 0
+/dev/sdc2 /Examenes-UTN/alumno_1/parcial_2 ext4 defaults 0 0
+/dev/sdc3 /Examenes-UTN/alumno_1/parcial_3 ext4 defaults 0 0
+/dev/sdc4 /Examenes-UTN/alumno_2/parcial_1 ext4 defaults 0 0
+/dev/sdc5 /Examenes-UTN/alumno_2/parcial_2 ext4 defaults 0 0
+/dev/sdc6 /Examenes-UTN/alumno_2/parcial_3 ext4 defaults 0 0
+/dev/sdc7 /Examenes-UTN/alumno_3/parcial_1 ext4 defaults 0 0
+/dev/sdc8 /Examenes-UTN/alumno_3/parcial_2 ext4 defaults 0 0
+/dev/sdc9 /Examenes-UTN/alumno_3/parcial_3 ext4 defaults 0 0
+/dev/sdc10 /Examenes-UTN/profesores ext4 defaults 0 0
+EOF
+
+sudo mount -a
+cd ..
+ls
+cd repogit/
+cd UTNFRA_SO_1P2C_2024_Toledo/
+ls
+cd RTA_SCRIPT_Examen_20241013/
+ls
+vim Punto_A.sh
+history
+ls
+cd ..
+ls
+cd UTNFRA_SO_1P2C_2024_Toledo/
+ls
+cd RTA_SCRIPT_Examen_20241013/
+cat Punto_A.sh 
+cat Punto_B.sh 
+mv Punto_B.sh test.sh
+mv Punto_A.sh Punto_B.sh
+mv test.sh Punto_A.sh
+cat Punto_B.sh
+cat Punto_A.sh
+vim Punto_A.sh
+git add .
+git push
+cd ..
+git status
+ls
+vim README.md 
+git branch
+git push origin main
+cat ~/.ssh/id_ed25519.pub
+git push origin main
+git status
+git add .
+git commit -m "Ejercicio hechos"
+git config --global user.email "santiagovtoledo@gmail.com"
+git config --global user.name "santiago"
+git commit -m "Ejercicio hechos"
+git push origin main
+history
+cat Punto_A.sh
+ls
+cd RTA_SCRIPT_Examen_20241013/
+ls
+cat Punto_A.sh 
+cat Punto_B.sh 
+history
+cd
+ls
+cd repogit
+ls
+cd UTNFRA_SO_1P2C_2024_Toledo/
+LS
+ls
+cd RTA_SCRIPT_Examen_20241013/
+ls
+cd Punto_D.sh
+ñs
+ls
+cd Punto_C.sh
+cd
+ls
+pwd
+tree Examenes-UTN/
+ls
+cd repogit
+ls
+cd UTNFRA_SO_1P2C_2024_Toledo/
+ls
+cd RTA_SCRIPT_Examen_20241013/
+ls
+vim Punto_D.sh 
+cat Punto_D.sh 
+ls
+cd
+ls
+cd repogit
+ls
+cd UTNFRA_SO_1P2C_2024_Toledo/
+ls
+cd RTA_SCRIPT_Examen_20241013/
+ls
+sudo vim Punto_D.sh 
+history
+q
+cd Punto_E.sh
+ls
+vim Punto_E.sh
+cat Punto_E.sh 
+cd ..
+ls
+cd RTA_ARCHIVOS_Examen_20241013/
+ls
+mkdir -p ../RTA_ARCHIVOS_Examen_20241008/cd ../RTA_ARCHIVOS_Examen_20241008/
+grep "MemTotal" /proc/meminfo > Filtro_Basico.txt
+sudo dmidecode -t chassis | grep "Manufacturer" >> Filtro_Basico.txt
+ls
+cat Filtro_Basico.txt 
+cd ..
+ls
+cd RTA_SCRIPT_Examen_20241013/
+ls
+./Punto_A.sh
+sudo ./Punto_A.sh
+ls
+vim Punto_A.sh
+sudo ./Punto_A.sh
+ls -la
+chmod 764 Punto_A.sh 
+ls -l
+vim Punto_A.sh
+./Punto_A.sh 
+chmod 764 Punto_B.sh 
+ls .l
+ls -l
+chmod 764 Punto_C.sh 
+chmod 764 Punto_D.sh 
+chmod 764 Punto_E.sh 
+chmod 764 Punto_F.sh 
+ls -l
+ls
+cd ..
+ls
+RTA_SCRIPT_Examen_20241013/
+ls
+cd RTA_SCRIPT_Examen_20241013/
+ls
+vim Punto_A.sh 
+vim Punto_B.sh
+vim Punto_C.sh
+vim Punto_E.sh
+vim Punto_F.sh
+cat Punto_F.sh
+./Punto_F.sh 
+vim Punto_F.sh 
+ls
+vim Punto_C.sh 
+./ Punto_C.sh 
+./Punto_C.sh 
+ls
+vim Punto_C.sh 
+./Punto_C.sh
+ls
+vim Punto_B.sh 
+history
+getent passwd | grep p1c2_2024
+vim Punto_C.sh
+vim Punto_B.sh 
+git status
+git add .
+git status
+git add ../RTA_ARCHIVOS_Examen_20241013/
+git status
+git commit -m "Ultimo"
+git push
+ls
+cd
+ls
+cd README
+cat README
+ls
+cd
+cd ..
+ls
+cd ..
+ls
+tree Examenes-UTN/
+rm --r Examenes-UTN/
+ls
+rm --r Examenes-UTN/
+ls
+rm -r Examenes-UTN/
+history -a
+ls
+cp $HOME/.bash_history .
+ls
+pwd
+ls
+cd repogit/
+ls
+cd UTNFRA_SO_1P2C_2024_Toledo/
